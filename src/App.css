@@ -1,0 +1,259 @@
+.bg_colorlayer {
+  width: 428px;
+  height: 505px;
+  background: #e6ebff;
+  filter: blur(75px);
+  z-index: 0;
+  animation: bgLayer1 20s ease-in-out 0s infinite forwards;
+}
+@keyframes bgLayer1 {
+  0% {
+    bottom: -20%;
+    left: 0;
+  }
+  50% {
+    bottom: 30%;
+    left: 60%;
+  }
+  100% {
+    bottom: 0%;
+    left: 0;
+  }
+}
+.bg_nave_layer {
+  width: 271px;
+  height: 206px;
+  background: #e4f9ef;
+  filter: blur(50px);
+  animation: bgLayer3 5s ease-in-out 0s infinite forwards;
+  z-index: -2 !important;
+}
+@keyframes bgLayer3 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+
+  100% {
+    top: 0%;
+    left: 90%;
+  }
+}
+.footer_color {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #3861eb;
+  filter: blur(100px);
+  animation: bgLayer2 10s ease-in-out 0s infinite forwards;
+  z-index: 0;
+}
+@keyframes bgLayer2 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  25% {
+    top: 0%;
+    left: 90%;
+  }
+  50% {
+    bottom: 0%;
+    left: 90%;
+  }
+  75% {
+    bottom: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+  }
+}
+.Animationbox1,
+.Animationbox2,
+.Animationbox3,
+.Animationbox4 {
+  position: relative;
+}
+.Animationbox5 {
+  left: 50%;
+  bottom: 0;
+  background-color: white;
+  transform: translate(100%, 20%);
+  animation: animbox5 9s linear 0s infinite forwards;
+  max-height: 80px;
+}
+@keyframes animbox5 {
+  0% {
+    top: 0;
+    transform: translate(100%, -50%);
+  }
+  25% {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 100%);
+  }
+  75% {
+    bottom: 0;
+    left: 50%;
+    transform: translate(100%, 100%);
+  }
+  100% {
+    top: 0;
+    transform: translate(100%, -50%);
+  }
+}
+.Animationbox1 {
+  animation: animbox1 5s linear 0s infinite forwards;
+}
+@keyframes animbox1 {
+  0% {
+    transform: rotate(-10deg);
+    left: -100px;
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+    left: 00px;
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+    left: -100px;
+  }
+}
+.Animationbox3 {
+  animation: animbox3 5s linear 0s infinite forwards;
+}
+@keyframes animbox3 {
+  0% {
+    transform: rotate(-30deg) translate(50px, -100px);
+  }
+
+  50% {
+    transform: rotate(0deg) translate(50px, 0px);
+  }
+
+  90% {
+    transform: rotate(-28deg) translate(50px, -100px) rotatex(0deg);
+  }
+  100% {
+    transform: rotate(-30deg) translate(50px, -100px) rotatex(360deg);
+  }
+}
+.Animationbox2 {
+  animation: animbox2 5s linear 0s infinite forwards;
+}
+@keyframes animbox2 {
+  0% {
+    transform: rotate(-30deg) translate(5px, 1px);
+  }
+
+  50% {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+
+  100% {
+    transform: rotate(-30deg) translate(0px, 1px);
+  }
+}
+.Animationbox4 {
+  animation: animbox4 6s linear 0s infinite forwards;
+}
+@keyframes animbox4 {
+  0% {
+    transform: rotate(-10deg) translate(5px, 1px);
+  }
+
+  30% {
+    transform: rotate(-10deg) translate(5px, 1px);
+  }
+
+  50% {
+    transform: rotate(10deg) translate(0px, 0px);
+  }
+
+  70% {
+    transform: rotate(-10deg) translate(0px, 0px);
+  }
+
+  90% {
+    transform: rotate(10deg) translate(0px, 0px);
+  }
+  100% {
+    transform: rotate(0deg) translate(5px, 1px);
+  }
+}
+.outline_none {
+  outline: none;
+  border: none;
+}
+::placeholder {
+  color: #b8bcc7 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.py_13_custom {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.white_space {
+  white-space: nowrap;
+}
+.Footer-Btn {
+  border: 2px solid white;
+  color: #b5b8c4;
+}
+.Footer-Btn:hover {
+  border: 2px solid #1ad079;
+  color: #149766 !important;
+}
+.pt_10_custom {
+  padding-top: 10px;
+}
+.submit_btn_hover:hover {
+  border: 1px solid #1ad079 !important;
+  color: #1ad079 !important;
+  background-color: transparent !important;
+}
+.Fooer_Before_line::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 3px;
+  background-color: #182449;
+}
+.Footer_LinkAfter::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #b5b8c4;
+  bottom: -5px;
+  left: 0;
+}
+.Footer-Btn:hover .Svg_Footer_Real1 {
+  display: inline;
+}
+.Footer-Btn .Svg_Footer_Real1 {
+  display: none;
+}
+.Footer-Btn:hover .Svg_Footer_Real2 {
+  display: none;
+}
+.bg_blue_faded {
+  background-color: #141f45;
+}
+.w_25 {
+  width: 25px;
+}
