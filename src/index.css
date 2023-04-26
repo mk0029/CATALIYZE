@@ -183,6 +183,10 @@
 a:hover {
   color: #00ff88 !important;
 }
+.btn_gotop {
+  left: 0;
+  top: 40px;
+}
 @media (min-width: 576px) {
   :root {
     --fs-xsm: 5px;

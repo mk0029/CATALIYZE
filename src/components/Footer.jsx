@@ -125,10 +125,10 @@ function Footer() {
             </div>
           </div>
         </section>
-        <div className="Fooer_Before_line pt-sm-5 mt-5 px-4 position-relative d-flex justify-content-center"></div>
+        <div className="Fooer_Before_line pt-lg-5 mt-5 px-4 position-relative d-flex justify-content-center"></div>
         <footer>
           <div className="container">
-            <div className="row pt-5 mt-4">
+            <div className="row pt-5 mt-md-4">
               <div className="col-md-4">
                 <div className="d-flex flex-column">
                   <a href="#">
@@ -190,7 +190,7 @@ function Footer() {
 
                   <img
                     onClick={() => top()}
-                    className=" mt-2"
+                    className=" mt-2 position-relative btn_gotop"
                     style={{ maxHeight: "441px", cursor: "pointer" }}
                     src={ArrowUpper}
                     alt="ArrowUpper"
