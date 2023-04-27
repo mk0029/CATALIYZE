@@ -13,7 +13,8 @@ function Header() {
   return (
     <>
       <section
-        className="  position-relative  py-lg-5 py-4"
+        className="   position-relative  py-lg-5 py-4"
+        id="header"
         style={{ zIndex: "3" }}>
         <div className=" container">
           <div className="row justify-content-between flex-column-reverse flex-lg-row">
@@ -256,7 +257,7 @@ function Header() {
                 <div className="d-flex gap-2">
                   <div className="d-flex gap-2 mt-lg-5 mt-4 w-100">
                     {" "}
-                    <div className="bg_green w-50 rounded-2 px-sm-4 px-2 py-sm-4 py-2 position-relative overflow-hidden w-100">
+                    <div className="bg_green HOVER_BLUE w-50 rounded-2 px-sm-4 px-2 py-sm-4 py-2 position-relative overflow-hidden w-100">
                       {" "}
                       <p className=" fw-semibold fs_xl text-white opacity_07 pt-2 mb-0 px-lg-3">
                         boost your{" "}
@@ -272,7 +273,7 @@ function Header() {
                         <img className="w_25" src={arrow} alt="arrow" />{" "}
                       </div>{" "}
                     </div>{" "}
-                    <div className=" d-flex flex-column justify-content-between bg_DarkBlue w-50 rounded-2 px-sm-4 px-3 py-sm-4 py-2 position-relative overflow-hidden w-100">
+                    <div className="HOVER_GREEN d-flex flex-column justify-content-between bg_DarkBlue w-50 rounded-2 px-sm-4 px-3 py-sm-4 py-2 position-relative overflow-hidden w-100">
                       {" "}
                       <div className="d-flex flex-column">
                         <p className=" fw-semibold fs_xl text-white opacity_07 pt-2 mb-0 px-lg-3">

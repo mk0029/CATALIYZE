@@ -64,12 +64,12 @@ function NAvBar() {
                 </ul>
               </div>
               <ul className="d-flex align-items-center mb-0 gap-4 d-none d-lg-flex">
-                <span className=" Btn-Header">
+                <span className=" Btn-Header HOVER_BLUE">
                   <a className="fw-semibold text_green fs_xl" href="#">
                     Sign up
                   </a>
                 </span>
-                <span className="Btn-Header_border">
+                <span className="Btn-Header_border HOVER_BLUE">
                   <a className=" fw-semibold text_green" href="#">
                     Log in{" "}
                     <img src={Login} style={{ maxWidth: "25px" }} alt="go" />

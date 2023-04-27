@@ -3,10 +3,12 @@ import "./App.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 
 function App() {
   return (
     <>
+      <Loader />
       <div className=" position-relative min-vh-100 d-flex flex-column overflow-hidden">
         {" "}
         <div className="bg_colorlayer position-absolute"></div>{" "}

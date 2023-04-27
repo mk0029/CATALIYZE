@@ -168,30 +168,14 @@
   }
 }
 .Animationbox4 {
-  animation: animbox4 6s linear 0s infinite forwards;
+  animation: animbox4 1s linear 0s 1 forwards;
 }
 @keyframes animbox4 {
   0% {
-    transform: rotate(-10deg) translate(5px, 1px);
-  }
-
-  30% {
-    transform: rotate(-10deg) translate(5px, 1px);
-  }
-
-  50% {
-    transform: rotate(10deg) translate(0px, 0px);
-  }
-
-  70% {
-    transform: rotate(-10deg) translate(0px, 0px);
-  }
-
-  90% {
-    transform: rotate(10deg) translate(0px, 0px);
+    transform: scale(0.1) rotatex(360deg);
   }
   100% {
-    transform: rotate(0deg) translate(5px, 1px);
+    transform: scale(1) rotatex(0deg);
   }
 }
 .outline_none {
@@ -221,11 +205,7 @@
 .pt_10_custom {
   padding-top: 10px;
 }
-.submit_btn_hover:hover {
-  border: 1px solid #1ad079 !important;
-  color: #1ad079 !important;
-  background-color: transparent !important;
-}
+
 .Fooer_Before_line::before {
   content: "";
   position: absolute;
@@ -256,4 +236,74 @@
 }
 .w_25 {
   width: 25px;
+}
+#header .row .col-lg-6 .row .col-4:hover {
+  background-color: #3861eb;
+  z-index: 1;
+}
+/* Loader-Animation */
+video {
+  position: fixed;
+  z-index: 0 !important;
+}
+.Loader-Animation {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Loader-Animation span {
+  opacity: 0;
+  display: inline-block;
+  animation: loader 1s linear forwards;
+  -webkit-animation: loader 1s linear forwards;
+  padding-left: 25px;
+}
+@keyframes loader {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    filter: blur(0px);
+  }
+}
+.Loader-Animation span:nth-child(1) {
+  animation-delay: 1s;
+}
+.Loader-Animation span:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.Loader-Animation span:nth-child(3) {
+  animation-delay: 2s;
+}
+.Loader-Animation span:nth-child(4) {
+  animation-delay: 2.5s;
+}
+.Loader-Animation span:nth-child(5) {
+  animation-delay: 3s;
+}
+.Loader-Animation span:nth-child(6) {
+  animation-delay: 3.5s;
+}
+.Loader-Animation span:nth-child(7) {
+  animation-delay: 4s;
+}
+.Loader-Animation span:nth-child(8) {
+  animation-delay: 4.5s;
+}
+.Loader-Animation span:nth-child(9) {
+  animation-delay: 5s;
+}
+
+.Loader-Animation span img {
+  width: calc(100% + 20px);
+}
+
+.Loader-Animation span:nth-child(11) img {
+  width: calc(100% + 0px);
 }

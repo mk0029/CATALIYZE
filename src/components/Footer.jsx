@@ -146,7 +146,7 @@ function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-8 col-9">
+              <div className="col-md-5 col-sm-8 col-9">
                 <div className="row justify-content-between mt-4 mt-md-0">
                   <div className="col-6">
                     <p className=" fw-semibold fs_xl text-white mb-0">
@@ -184,7 +184,7 @@ function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 col-3">
+              <div className="col-sm-3 col-3">
                 <div className="d-flex justify-content-between mt-4 mt-md-0">
                   <p className=" fw-semibold fs_xl text-white mb-0">LinkedIn</p>
 

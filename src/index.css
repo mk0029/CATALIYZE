@@ -4,6 +4,7 @@
   list-style-type: none;
   text-decoration: none !important;
   box-sizing: border-box;
+  transition: all 300ms ease-in-out;
 }
 .ff_Seoge {
   font-family: "Segoe UI";
@@ -186,6 +187,23 @@ a:hover {
 .btn_gotop {
   left: 0;
   top: 40px;
+}
+.HOVER_GREEN:hover {
+  background-color: var(--bg-green);
+}
+.HOVER_BLUE:hover {
+  background-color: var(--bg-darkblue);
+}
+input:hover {
+  background-color: #4b4c4c;
+}
+.submit_btn_hover {
+  border: 1px solid transparent !important;
+}
+.submit_btn_hover:hover {
+  border: 1px solid var(--bg-green) !important;
+  color: var(--text-green) !important;
+  background-color: transparent !important;
 }
 @media (min-width: 576px) {
   :root {
